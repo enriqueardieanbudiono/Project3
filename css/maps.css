@@ -1,0 +1,43 @@
+/* Map Style */
+#map {
+	height: 100%;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* End of Map Style */
+
+/* Navigation Bar */
+nav {
+	position: fixed;
+	text-align: center;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	background-color: #ADADAD;
+}
+
+nav a {
+	float: none;
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Montserrat';
+}
+
+nav a:hover {
+	background: #DDDDDD;
+	color: black;
+}
+
+nav a.active {
+	background-color: #1DB954;
+	color: white;
+}
+/* End of Navigation Bar */
